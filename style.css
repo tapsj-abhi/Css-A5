@@ -1,0 +1,61 @@
+body{
+    background-color:orange;
+    
+}
+.text{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.box {
+    width: 100px;
+    margin: auto;
+}
+.number{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left:-20px;
+    bottom: -20px;;
+
+}
+
+.sameBox {
+    height:120px;
+    width:120px;
+    background-color: maroon;
+}
+.box1:hover{
+    width: 240px;
+    transition: width 2s linear;
+    
+}
+.box2:hover{
+    height: 280px;
+    width: 240px;
+    transition: width 2s, height 4s ;
+    transition-timing-function: linear;
+    
+}
+
+.box3:hover{
+    width: 300px;
+    transition: width 4s linear;
+    
+}
+.back{
+    font-size: 40px;
+    color: rgb(145, 11, 133);
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.next{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
